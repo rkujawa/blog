@@ -15,3 +15,5 @@ You can contact me via [Twitter](http://twitter.com/RadoslawKujawa) or by sendin
 
 Thanks for reading!
 
+![placeholder]({{ site.url }}/public/images/me.jpg "This is me + son")
+
