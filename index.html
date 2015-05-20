@@ -19,7 +19,6 @@ title: Home
   {% else %}
     {{ post.content | strip_html | truncatewords:50 }}
   {% endif %}
-  <br/>
   <a href="{{ post.url }}">Read more...</a><br/><br/>
 
   </div>
