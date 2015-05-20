@@ -7,9 +7,9 @@ permalink:        pretty
 relative_permalinks: true
 
 # Setup
-title:            Hyde
+title:            Uguu 
 tagline:          'A Jekyll theme'
-description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+description:      'The magnificent stories of kawaii software development by <a href="https://twitter.com/RadoslawKujawa" target="_blank">@RadoslawKujawa</a>.'
 url: 		  http://blog.uguu.waw.pl/
 baseurl: 	  http://blog.uguu.waw.pl/
 
