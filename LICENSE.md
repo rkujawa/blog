@@ -1,4 +1,4 @@
-# Released under MIT License
+# This blog uses Poole, Poole is released under MIT License
 
 Copyright (c) 2013 Mark Otto.
 
