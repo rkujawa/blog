@@ -22,7 +22,7 @@ First thing I did after connecting it, I checked the firmware version. It turned
 
 The web interface is very limited. But that's okay, I didn't buy this for a fancy web clicky thing. What matters for me is the command line interface and advanced features it provides. The provided command line interface is much like Cisco. If you ever configured Cisco router, you'll feel at home. By default it is accessible both by serial port and by SSH protocol (so you can configure it even if you don't have the serial cable).
 
-Configuration process was fairly painless. I only had to search for the documentation when working with more advanced features like IPv6 tunneling. Unfortunately, there's not so much of a command line documentation on Ubiquiti web site. One has to be prepared to dig deeper and acquire the Vyatta documentation (which on the other hand is excellent).
+Configuration process was fairly painless. I only had to search for the documentation when working with more advanced features like IPv6 tunneling. Unfortunately, there's not so much of a command line documentation on Ubiquiti web site. One has to be prepared to dig deeper and acquire the [Vyatta documentation](http://ftp.het.net/iso/vyatta/vc6.3/docs/) (which on the other hand is excellent).
 
 Worth noting is the fact, that you can also access the bash interpreter command line. In case you ever have to debug anything or install additional software (yes, it is possible).
 
