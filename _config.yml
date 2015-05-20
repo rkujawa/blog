@@ -9,7 +9,7 @@ relative_permalinks: true
 # Setup
 title:            Uguu 
 tagline:          'A Jekyll theme'
-description:      'The magnificent stories of kawaii software development by <a href="https://twitter.com/RadoslawKujawa" target="_blank">@RadoslawKujawa</a>.'
+description:      'The magnificent stories of kawaii computing by <a href="https://twitter.com/RadoslawKujawa" target="_blank">@RadoslawKujawa</a>.'
 url: 		  http://blog.uguu.waw.pl/
 baseurl: 	  http://blog.uguu.waw.pl/
 
