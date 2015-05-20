@@ -17,9 +17,13 @@ It arrived a few days later from one of the polish distributors. Immediately aft
 - It's very small, the size is completely satisfying for a home solution.
 - There's a familiar serial console port, compatible with popular Cisco cross-over cables.
 
-First thing I did after connecting it, I checked the firmware version. It turned out, a few days earlier Ubiquiti released a new (1.6.0) version. So I downloaded it and proceeded to update.
+First thing I did after connecting it, I checked the firmware version. It turned out, a few days earlier Ubiquiti released a new (1.6.0) version. So I downloaded it and proceeded to update. This brought a new kernel version, a dozen of bug fixes and a few new features.
 
-The web interface is very limited. But that's okay, I didn't buy this for a fancy web clicky thing. What matters for me is the command line interface and advanced features it provides. The provided command line interface is much like Cisco. If you ever configured Cisco router, you'll feel at home. It is accessible both by serial port and by SSH protocol.
+The web interface is very limited. But that's okay, I didn't buy this for a fancy web clicky thing. What matters for me is the command line interface and advanced features it provides. The provided command line interface is much like Cisco. If you ever configured Cisco router, you'll feel at home. By default it is accessible both by serial port and by SSH protocol (so you can configure it even if you don't have the serial cable).
+
+Configuration process was fairly painless. I only had to search for the documentation when working with more advanced features like IPv6 tunneling. Unfortunately, there's not so much of a command line documentation on Ubiquiti web site. One has to be prepared to dig deeper and acquire the Vyatta documentation (which on the other hand is excellent).
+
+Worth noting is the fact, that you can also access the bash interpreter command line. In case you ever have to debug anything or install additional software (yes, it is possible).
 
 The router might be physically small, but performance-wise it's a beast. Based on a dual-core 64-bit Cavium Octeon processor and equipped with 512MB of RAM, it's more powerful than enough to handle most home workloads. I have an 80Mbps download link at home, running a few torrents at the same time and saturating it only caused CPU utilization of 5-8%. Ubiquiti is advertising this model as capable of processing 1 million packets per second.
 
@@ -29,7 +33,10 @@ At this point, after owning the router for 3 weeks or so, I have migrated all th
 - DHCP server.
 - IPv6 tunnel with /48 class routed into internal network
 - IPv6 router advertisement and address configuration for internal machines.
+- Firewall for both IPv4 and IPv6.
 - OpenVPN server.
 
 If you don't like Vyatta, you can also run [NetBSD](http://blog.netbsd.org/tnf/entry/hands_on_experience_with_edgerouter) or [OpenBSD](http://www.openbsd.org/octeon.html) on it. 
+
+So far I am completely satisfied with EdgeRouter.
 
