@@ -12,10 +12,16 @@ I started to search for a compromise between a full-fledged computer and a low-e
 ![placeholder]({{ site.url }}/public/images/edgerouter.jpg "EdgeRouter Lite")
 
 It arrived a few days later from one of the polish distributors. Immediately after unpacking, one can notice a few promising things. 
-- The metal case is small, but looks strudy and well made, unlike plasticky routers from D-Link, Linksys etc. 
+
+- The metal case looks strudy and well made, unlike plasticky routers from D-Link, Linksys etc. 
+- It's very small, the size is completely satisfying for a home solution.
 - There's a familiar serial console port, compatible with popular Cisco cross-over cables.
+
+First thing I did after connecting it, I checked the firmware version. It turned out, a few days earlier Ubiquiti released a new (1.6.0) version. So I downloaded it and proceeded to update.
 
 The web interface is very limited. But that's okay, I didn't buy this for a fancy web clicky thing.
 
-If you don't like Vyatta, you can also run [NetBSD] or OpenBSD on it. 
+The router might be physically small, but performance-wise it's a beast. Based on a dual-core Cavium Octeon processor and equipped with 512MB of RAM, it's more than enough to handle most home workloads. I have an 80Mbps download link at home, running a few torrents at the same time and saturating it only caused CPU utilization of 5-8%.
+
+If you don't like Vyatta, you can also run [NetBSD](http://blog.netbsd.org/tnf/entry/hands_on_experience_with_edgerouter) or [OpenBSD](http://www.openbsd.org/octeon.html) on it. 
 
