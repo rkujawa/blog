@@ -35,6 +35,7 @@ At this point, after owning the router for 3 weeks or so, I have migrated all th
 - IPv6 router advertisement and address configuration for internal machines.
 - Firewall for both IPv4 and IPv6.
 - OpenVPN server.
+- UPnP server to support dynamic port forwarding for things like PS3, Torrents.
 
 If you don't like Vyatta, you can also run [NetBSD](http://blog.netbsd.org/tnf/entry/hands_on_experience_with_edgerouter) or [OpenBSD](http://www.openbsd.org/octeon.html) on it. 
 
