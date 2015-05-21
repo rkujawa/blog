@@ -62,7 +62,7 @@ If you're using IPv4 only, then use `mdns4_minimal` and `mdns4` instead.
 
 That's it! You should be able to resolve your own name in `local` domain now:
 
-%{ highlight bash %}
+{% highlight bash %}
 # getent hosts foobar.local
 10.0.0.100	foobar.local
 {% endhighlight %}
@@ -95,7 +95,7 @@ Additional nsswitch module also needs to be enabled, to support resolving host n
 
 You're done. Testing can be done with the `getent` command just as on Linux:
 
-%{ highlight bash %}
+{% highlight bash %}
 # getent hosts xyzzy.local
 10.0.0.110	xyzzy.local
 {% endhighlight %}
