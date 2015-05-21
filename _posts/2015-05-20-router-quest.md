@@ -10,7 +10,7 @@ I felt deep resentment towards plasticky home routers you can find on the shop s
 
 I started to search for a compromise between a full-fledged computer and a low-end router. After doing a bit of research, I stumbled upon Ubiquiti EdgeRouter series of routers. Googling revealed that they are based on a fork of [Vyatta](http://en.wikipedia.org/wiki/Vyatta), which seemed like a good thing. I decided to order one of the cheaper models, [EdgeRouter Lite](https://www.ubnt.com/edgemax/edgerouter-lite/).
 
-![placeholder]({{ site.url }}/public/images/edgerouter.jpg "EdgeRouter Lite")
+![EdgeRouter Lite]({{ site.url }}/public/images/edgerouter.jpg "EdgeRouter Lite")
 
 It arrived a few days later from one of the polish distributors. Immediately after unpacking, one can notice a few promising things. 
 
