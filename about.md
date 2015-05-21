@@ -15,5 +15,7 @@ You can contact me via [Twitter](http://twitter.com/RadoslawKujawa) or by sendin
 
 Thanks for reading!
 
-![placeholder]({{ site.url }}/public/images/me.jpg "This is me + son")
+![This is me + son]({{ site.url }}/public/images/me.jpg "This is me + son")
+
+What is Uguu? Read about it [here](http://knowyourmeme.com/memes/uguu).
 
