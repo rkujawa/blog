@@ -9,6 +9,7 @@ Maintaining static DNS zones in an environment where new machines are often conn
 My network consists of a mixture of Linux, OS X, iOS and NetBSD devices.
 
 Typical UNIX implementation of mDNS consists of two components:
+
 - Responder - which is used to reply the requests sent by other machines and expose information about host name and services to the network. 
 - Resolver - which is used to answer queries made by the applications running on a local machine (akin to normal DNS resolver).
 
@@ -82,7 +83,7 @@ If not, then be sure to set it:
 # /etc/rc.d/network restart
 {% endhighlight %}
 
-All the necessary components are included in base system installation since NetBSD 6.0. The mdnsd service is the same mDNSResponder implementation as used on OS X and iOS.  
+All the necessary components are included in base system installation since NetBSD 6.0. The `mdnsd` service is the same mDNSResponder implementation as used on OS X and iOS.  
 
 {% highlight bash %}
 # echo 'mdnsd=YES' >> /etc/rc.conf
