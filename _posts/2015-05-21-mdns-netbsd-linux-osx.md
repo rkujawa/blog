@@ -77,10 +77,10 @@ xyzzy.example.com
 
 If not, then be sure to set it:
 
-%{ highlight bash %}
+{% highlight bash %}
 # echo 'hostname=xyzzy.example.com' >> /etc/rc.conf
 # /etc/rc.d/network restart
-${% endhighlight %}
+{% endhighlight %}
 
 All the necessary components are included in base system installation since NetBSD 6.0. The mdnsd service is the same mDNSResponder implementation as used on OS X and iOS.  
 
