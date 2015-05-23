@@ -8,7 +8,7 @@ Recently I have migrated my home router from OpenBSD to Ubiquiti EdgeRouter. In 
 <!-- more -->
 ## Prerequisites
 
-- Ubiquiti EdgeRouter (any model) updated to software 1.6.0 or newer
+- Ubiquiti EdgeRouter (any model) updated to software 1.6.0 or newer.
 - Public, static IPv4 address.
 - SixXS account, with already created tunnel and subnet.
 - Basic knowledge of EdgeOS (how to use command line, edit configuration, commit and save).
