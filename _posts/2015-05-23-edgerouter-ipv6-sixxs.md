@@ -3,7 +3,7 @@ layout: post
 title: IPv6 routing with EdgeRouter and SixXS
 ---
 
-Recently I have migrated my home router from OpenBSD to Ubiqiti EdgeRouter. In this post I shall explain how to configure IPv6 tunnel provided by [SixXS](http://sixxs.net) and how to route an IPv6 subnet into your internal network.
+Recently I have migrated my home router from OpenBSD to Ubiquiti EdgeRouter. In this post I shall explain how to configure IPv6 tunnel provided by [SixXS](http://sixxs.net) and how to route an IPv6 subnet into your internal network.
 
 <!-- more -->
 ## Prerequisites
