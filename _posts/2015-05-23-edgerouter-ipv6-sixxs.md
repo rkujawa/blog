@@ -60,7 +60,7 @@ After committing this change, you should be able to successfully `ping6` address
 
 Fist thing to do is to check your subnet configuration at SixXS site. These days SixXS is by assigning a separate /64 network for every tunnel. However, you may still want to request a separate /48 network. Let's say a network with prefix `2001:5:6::/64` was assigned to you. To be able to use addresses with this prefix, you just need to configure internal ethernet interface (in this example `eth2`).
 
-set interfaces ethernet eth2 address '2001:5:6::1/64'
+	set interfaces ethernet eth2 address '2001:5:6::1/64'
 
 Now, machines on the internal network can have addresses assigned from this prefix. They will use the address configured above as their gateway.
 
