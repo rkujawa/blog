@@ -66,7 +66,7 @@ Now, machines on the internal network can have addresses assigned from this pref
 
 ## Enabling stateless IPv6 addressing for internal network 
 
-The easiest way of configuring IPv6 addresses on internal network is stateless autoconfiguration [RFC 4862](https://tools.ietf.org/html/rfc4862). Alternatively, you could use DHCPv6, which is also supported by EdgeOS. However, since stateless configuration is so easy to achieve, we'll do that here.
+The easiest way of configuring IPv6 addresses on internal network is stateless autoconfiguration, as described in [RFC 4862](https://tools.ietf.org/html/rfc4862). Alternatively, you could use DHCPv6, which is also supported by EdgeOS. However, since stateless configuration is so easy to achieve, we'll do that here.
 
 	set interfaces ethernet eth2 ipv6 router-advert prefix '2001:5:6::/48' 
 	set interfaces ethernet eth2 ipv6 router-advert send-advert true
