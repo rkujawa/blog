@@ -78,7 +78,7 @@ On Linux you can quickly check for public IPv6 addresses with the following comm
 {% highlight bash %}
 $ ip a s | grep inet6 | grep global
     inet6 2001:5:6:(...)/64 scope global dynamic 
-{% endhighlight }
+{% endhighlight %}
 
 Congratulations, machines on your internal network now have public IPv6 addresses. You should be able to `ping6` the internet addresses, visit IPv6-enabled web sites from machines on the internal network, and so on.
 
