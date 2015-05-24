@@ -54,7 +54,7 @@ foo.service - The foo service that does nothing useful
 # ps -p 14306 -o pid,comm,cputime,%cpu
   PID COMMAND             TIME %CPU
 14306 sha1sum         00:02:10 99.6
-{% endhighlight }
+{% endhighlight %}
 
 Indeed, since this command will eat up all the available CPU time, the other important processes and services might starve for CPU time. Let's make sure this never happens (with cgroups).
 
