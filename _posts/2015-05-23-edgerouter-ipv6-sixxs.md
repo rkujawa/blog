@@ -15,9 +15,11 @@ Recently I have migrated my home router from OpenBSD to Ubiquiti EdgeRouter. In 
 
 This tutorial assumes you already have your EdgeRouter configured for IPv4 operation and that you have static, public IPv4 address. It is more complicated to configure the tunnel if you don't have static IPv4 address on an external interface, since EdgeRouter does not provide support for SixXS dynamic tunnel configuration protocol known as [TIC](https://www.sixxs.net/tools/tic/). Operation with a dynamic IPv4 address is still possible, as one of the users [created a script](http://community.ubnt.com/t5/EdgeMAX/SIXXS-connectivity-without-AICCU-with-minimum-system/td-p/550538) to support the heartbeat protocol.
 
+Update 2015-05-24: Florian G. Pflug prepared a package that adds support for AICCU (TIC protocol tool) to Vyatta. I didn't test it but it looks promising. See [here](https://github.com/fgp/vyatta-aiccu).
+
 ## Configuring the tunnel interface
 
-Let's suppose SixXS provided you with a tunnel:
+Let's suppose SixXS provided you with a static tunnel:
 
 <table>
 	<tr>
