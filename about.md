@@ -11,7 +11,7 @@ At [dayjob](http://osec.pl/) I teach Linux. At night I code things [no one ever 
 
 I'll be sharing stuff I consider interesting on this blog.
 
-You can contact me via [Twitter](http://twitter.com/RadoslawKujawa) or by sending that oldschool thing called e-mail to: radoslaw dot kujawa at gmail dot com.
+You can contact me via [Twitter](http://twitter.com/RadoslawKujawa).
 
 Thanks for reading!
 
