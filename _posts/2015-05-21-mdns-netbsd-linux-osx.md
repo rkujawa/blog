@@ -31,7 +31,7 @@ If the host name contains spaces (which is never a good thing), substitute them 
 
 ## Configuring mDNS in Linux
 
-The responder is implemented by Avahi service, which is already a part of all recent distributions. The resolver is implemented as additional nsswitch module `mdns`, which unfortunately is not included in RHEL/CentOS. Without this module only applications that use Avahi API are able to resolve mDNS host names. However, `mdns` module can be installed from [EPEL](https://fedoraproject.org/wiki/EPEL) repository (so be sure to enable it first).
+The responder is implemented by Avahi service, which is already a part of all recent distributions. The resolver is implemented as additional nsswitch module `mdns`, which unfortunately is not included in RHEL/CentOS. Without this module only applications that use Avahi API are able to resolve mDNS host names. However, `mdns` module can be installed from [EPEL](https://fedoraproject.org/wiki/EPEL) repository (so be sure to enable it first). The package is called `nss-mdns`.
 
 This example is specific to RHEL/CentOS 7, but most Linux distributions use the same components.
 
@@ -51,8 +51,8 @@ Next, install the necessary packages:
  
 {% highlight bash %}
 # yum -y install avahi nss-mdns
-# systemctl start avahi-service
-# systemctl enable avahi-service
+# systemctl start avahi-daemon
+# systemctl enable avahi-daemon
 {% endhighlight %}
 
 Next, enable the `mdns` module in `/etc/nsswitch.conf` by modifying the `hosts:` line:
